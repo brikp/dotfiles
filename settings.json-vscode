@@ -1,0 +1,54 @@
+{
+    "files.eol": "\n",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Consolas, Hack, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 25,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "editor.letterSpacing": 0.35,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "phase",
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // you'll need to change this to an absolute path on your computer
+    "editor.renderWhitespace": "all",
+
+    "vscode_custom_css.imports": ["file:///C:/dev/settings/vscodestyles.css"],
+    "vscode_custom_css.policy": true,
+    "workbench.iconTheme": "vscode-icons",
+
+    // show snippets before any other auto completion
+    "editor.snippetSuggestions": "top",
+    "editor.autoIndent": true,
+    "editor.showFoldingControls": "always",
+    "editor.matchBrackets": true,
+    "html.format.enable": true,
+    "editor.wordWrap": "on",
+
+    "[html]": {
+        "togglequotes.chars": [
+            "\"",
+            "'",
+            "`"
+        ],
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+}
+
+// {
+//     "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
+//     "editor.fontSize": 13,
+//     "window.zoomLevel": 0,
+//     "editor.suggestSelection": "first",
+//     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+//     "workbench.colorTheme": "Cobalt2"
+
+// }
